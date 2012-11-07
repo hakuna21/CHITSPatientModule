@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="@MODULE_PACKAGE@">
+	<class name="FamilyFolder" table="chits_family_folder" batch-size="25">
+		<id name="familyFolderId" type="int" column="family_folder_id"
+			unsaved-value="0">
+			<generator class="native" />
+		</id>
+
+		<property name="uuid" type="java.lang.String" column="uuid" length="38" unique="true"/>
+		<property name="code" type="java.lang.String" column="code" length="16" />
+		<property name="name" type="java.lang.String" column="name" length="64" />
+		<property name="address" type="java.lang.String" column="address" length="64" />
+		<property name="barangayCode" type="java.lang.String" column="barangay_code" length="9" />
+		<property name="cityCode" type="java.lang.String" column="city_code" length="9" />
+		<property name="notes" type="java.lang.String" column="notes" length="255" />
+		<property name="averageFamilyIncome" type="java.lang.String" column="average_family_income" length="32" unique="true"/>
+		<property name="dateCreated" type="java.util.Date" column="date_created" not-null="true" length="19" />
+		<property name="dateChanged" type="java.util.Date" column="date_changed" not-null="false" length="19" />
+		<property name="voided" type="boolean" column="voided" length="1" not-null="true" />
+		<property name="dateVoided" type="java.util.Date"  column="date_voided" length="19" />
+		<property name="voidReason" type="java.lang.String" column="void_reason" length="255" />
+
+		<!-- bi-directional many-to-one association to Patient indicating the head of the family -->
+		<many-to-one name="headOfTheFamily" column="head_of_the_family" class="org.openmrs.Patient" not-null="false" />
+
+		<!-- bi-directional many-to-one association to HouseholdInformation -->
+		<many-to-one name="householdInformation" column="household_information_id" class="org.openmrs.module.chits.HouseholdInformation" cascade="save-update" not-null="false" />
+
+		<!-- bi-directional many-to-one association to User -->
+		<many-to-one name="creator" column="creator" class="org.openmrs.User" not-null="true" />
+
+		<!-- bi-directional many-to-one association to User -->
+		<many-to-one name="voidedBy" column="voided_by" class="org.openmrs.User" />
+
+		<!-- bi-directional many-to-one association to User -->
+		<many-to-one name="changedBy" column="changed_by" class="org.openmrs.User" not-null="false" />
+
+		<!-- Unidirectional associations with join table to 'Patient' table -->
+	    <set name="patients" table="chits_family_folder_patient">
+	        <key column="family_folder_id"/>
+	        <many-to-many column="patient_id" unique="true" class="org.openmrs.Patient"/>
+	    </set>			
+	</class>
+</hibernate-mapping>

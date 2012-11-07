@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="web/src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="lib" path="metadata"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CHITSTheme"/>
+	<classpathentry kind="lib" path="lib-common/chits-tags.jar"/>
+	<classpathentry kind="lib" path="lib-common/webservices.rest-0.8.21639.omod.jar"/>
+	<classpathentry kind="lib" path="lib-common/webservices.rest-api-0.8.jar"/>
+	<classpathentry kind="lib" path="lib-common/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="lib-common/openmrs-api-1.8.2.jar" sourcepath="/openmrs-1.8.2-src"/>
+	<classpathentry kind="lib" path="lib-common/openmrs-web-1.8.2.jar" sourcepath="/openmrs-1.8.2-src"/>
+	<classpathentry kind="lib" path="lib-common/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="lib-common/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib-common/spring-web-3.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib-common/spring-webmvc.jar"/>
+	<classpathentry kind="lib" path="lib-common/spring-2.5.1.jar"/>
+	<classpathentry kind="lib" path="lib-common/jsp-api.jar"/>
+	<classpathentry kind="lib" path="lib-common/servlet-api.jar"/>
+	<classpathentry kind="lib" path="lib-common/hibernate3.jar"/>
+	<classpathentry kind="lib" path="lib-common/tests-openmrs-api-1.5.0.7125-dev.jar"/>
+	<classpathentry kind="lib" path="lib-common/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="lib-common/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="lib-common/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="lib-common/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="lib/joda-time-2.0.jar"/>
+	<classpathentry kind="lib" path="lib-common/liquibase-core-1.9.4-mod.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>

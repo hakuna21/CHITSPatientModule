@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/tags
+END
+immunizationStatus.tag
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/immunizationStatus.tag
+END
+bloodType.tag
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/bloodType.tag
+END
+pulse.tag
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/pulse.tag
+END
+springFieldError.tag
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/springFieldError.tag
+END
+foldersOf.tag
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/foldersOf.tag
+END
+springConcpetIdDropdown.tag
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/tags/springConcpetIdDropdown.tag
+END
+springInput.tag
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/tags/springInput.tag
+END
+familyPlanningConsultStatus.tag
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/tags/familyPlanningConsultStatus.tag
+END
+springDropdown.tag
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/tags/springDropdown.tag
+END
+bloodPressure.tag
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/bloodPressure.tag
+END
+serviceDue.tag
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/serviceDue.tag
+END
+springRadiobutton.tag
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/springRadiobutton.tag
+END
+maternalCareConsultStatus.tag
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/tags/maternalCareConsultStatus.tag
+END
+maternalCareStage.tag
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/maternalCareStage.tag
+END
+drugOrders.tag
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/drugOrders.tag
+END
+checklist.tag
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/checklist.tag
+END
+encounterDuration.tag
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/encounterDuration.tag
+END
+springTextArea.tag
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/springTextArea.tag
+END
+internalExaminationRecordTable.tag
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/internalExaminationRecordTable.tag
+END
+auditInfo.tag
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/auditInfo.tag
+END
+philhealthStatus.tag
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/philhealthStatus.tag
+END
+obstetricScore.tag
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/obstetricScore.tag
+END
+respiratoryRate.tag
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/respiratoryRate.tag
+END
+childProtectedAtBirthStatus.tag
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/childProtectedAtBirthStatus.tag
+END
+prenatalVisitTable.tag
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/prenatalVisitTable.tag
+END
+programs.tag
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/tags/programs.tag
+END
+springCheckbox.tag
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/tags/springCheckbox.tag
+END
+familyAddress.tag
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/tags/familyAddress.tag
+END
+obsValue.tag
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/tags/obsValue.tag
+END

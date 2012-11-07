@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults
+END
+ajaxAnthropometricHistory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/ajaxAnthropometricHistory.jsp
+END
+fragmentVisitDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/fragmentVisitDetails.jsp
+END
+ajaxVitalSignsHistory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/ajaxVitalSignsHistory.jsp
+END
+viewPatientConsultForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/viewPatientConsultForm.jsp
+END
+fragmentSpecialConsults.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/fragmentSpecialConsults.jsp
+END
+ajaxReloadVisitDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/ajaxReloadVisitDetails.jsp
+END
+ajaxSetConsultTimestampForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/ajaxSetConsultTimestampForm.jsp
+END
+fragmentLabs.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/fragmentLabs.jsp
+END
+ajaxVitalSignsEditForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/ajaxVitalSignsEditForm.jsp
+END
+fragmentStartConsult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/fragmentStartConsult.jsp
+END
+ajaxFragmentStartConsult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/ajaxFragmentStartConsult.jsp
+END
+fragmentViewGraphs.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/fragmentViewGraphs.jsp
+END
+ajaxNotesTemplate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/ajaxNotesTemplate.jsp
+END
+ajaxAnthropometricEditForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/ajaxAnthropometricEditForm.jsp
+END
+ajaxUpdateNotesForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/ajaxUpdateNotesForm.jsp
+END
+fragmentHeader.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/fragmentHeader.jsp
+END
+ajaxPatientHistoricalConsultForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/ajaxPatientHistoricalConsultForm.jsp
+END
+fragmentEndConsult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/fragmentEndConsult.jsp
+END
+fragmentDispenseDrugs.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/fragmentDispenseDrugs.jsp
+END
+fragmentSetAppointments.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/fragmentSetAppointments.jsp
+END

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="org.openmrs.module.chits">
+	<class name="HouseholdInformation" table="chits_household_information" batch-size="25">
+		<id name="householdInformationId" type="int" column="household_information_id"
+			unsaved-value="0">
+			<generator class="native" />
+		</id>
+
+		<property name="uuid" type="java.lang.String" column="uuid" length="38" unique="true"/>
+		<property name="accessToWaterSupply" type="java.lang.String" column="access_to_water_supply" length="16" />
+		<property name="toiletFacility" type="java.lang.String" column="toilet_facility" length="16" />
+		<property name="toiletLocation" type="java.lang.String" column="toilet_location" length="16" />
+		<property name="disposalOfSolidWaste" type="java.lang.String" column="disposal_of_solid_waste" length="16" />
+		<property name="dateFirstInspected" type="java.util.Date" column="date_first_inspected" not-null="false" length="19" />
+		<property name="reinspectionDate" type="java.util.Date" column="reinspection_date" not-null="false" length="19" />
+		<property name="dateCreated" type="java.util.Date" column="date_created" not-null="true" length="19" />
+		<property name="dateChanged" type="java.util.Date" column="date_changed" not-null="false" length="19" />
+		<property name="voided" type="boolean" column="voided" length="1" not-null="true" />
+		<property name="dateVoided" type="java.util.Date"  column="date_voided" length="19" />
+		<property name="voidReason" type="java.lang.String" column="void_reason" length="255" />
+
+		<!-- bi-directional many-to-one association to User -->
+		<many-to-one name="creator" column="creator" class="org.openmrs.User" not-null="true" />
+
+		<!-- bi-directional many-to-one association to User -->
+		<many-to-one name="voidedBy" column="voided_by" class="org.openmrs.User" />
+
+		<!-- bi-directional many-to-one association to User -->
+		<many-to-one name="changedBy" column="changed_by" class="org.openmrs.User" not-null="false" />
+
+		<!-- bi-directional one-to-many association to FamilyFolder -->
+		<set name="familyFolders" inverse="true" cascade="save-update" access="field">
+			<key column="household_information_id" />
+			<one-to-many class="FamilyFolder" />
+		</set>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/propertyeditor
+END
+FamilyFolderEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/propertyeditor/FamilyFolderEditor.java
+END
+UserEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/propertyeditor/UserEditor.java
+END
+VaccinationRecordEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/propertyeditor/VaccinationRecordEditor.java
+END

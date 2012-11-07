@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="org.openmrs.module.chits">
+	<class name="Province" table="chits_province" batch-size="25">
+		<id name="provinceCode" type="int" column="province_code" unsaved-value="0" />
+		<property name="name" type="java.lang.String" column="name" length="64" />
+		<property name="incomeClass" type="java.lang.String" column="income_class" length="64" />
+		<property name="info" type="java.lang.String" column="info" length="64" />
+		<property name="registeredVoters" type="int" column="registered_voters" />
+		<property name="population" type="int" column="population" />
+
+		<many-to-one name="region" class="Region" not-null="true">
+			<column name="region_code" />
+		</many-to-one>
+
+		<set name="municipalities" inverse="true" cascade="all" order-by="name" access="field">
+			<key column="province_code" />
+			<one-to-many class="Municipality" />
+		</set>
+	</class>
+</hibernate-mapping>

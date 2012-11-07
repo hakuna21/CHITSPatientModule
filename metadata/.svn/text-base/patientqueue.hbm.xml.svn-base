@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="@MODULE_PACKAGE@">
+	<class name="PatientQueue" table="chits_patient_queue" batch-size="25">
+		<id name="patientQueueId" type="int" column="patient_queue_id"
+			unsaved-value="0">
+			<generator class="native" />
+		</id>
+
+		<property name="notesNumber" type="java.lang.Integer" column="notes_number" not-null="false" length="5" />
+		<property name="enteredQueue" type="java.util.Date" column="entered_queue" not-null="true" length="19" />
+		<property name="consultStart" type="java.util.Date" column="consult_start" not-null="false" length="19" />
+		<property name="consultEnd" type="java.util.Date" column="consult_end" not-null="false" length="19" />
+		<property name="exitedQueue" type="java.util.Date" column="exited_queue" not-null="false" length="19" />
+
+		<!-- many-to-one association to Patient indicating the patient that is in the queue -->
+		<many-to-one name="patient" column="patient_id" class="org.openmrs.Patient" not-null="true" />
+
+		<!-- many-to-one association to Encounter indicating the Encounter for this patient for the duration of being in the queue -->
+		<many-to-one name="encounter" column="encounter_id" class="org.openmrs.Encounter" not-null="false" />
+	</class>
+</hibernate-mapping>

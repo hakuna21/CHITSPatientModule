@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller
+END
+AddPatientController.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/AddPatientController.java
+END
+AddFamilyFolderController.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/AddFamilyFolderController.java
+END
+ViewPatientController.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/ViewPatientController.java
+END
+PatientQueuePortletController.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/PatientQueuePortletController.java
+END
+EditFamilyFolderController.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/EditFamilyFolderController.java
+END
+TransferMembersToFamilyFolderController.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/TransferMembersToFamilyFolderController.java
+END
+BaseUpdatePatientConsultDataController.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/BaseUpdatePatientConsultDataController.java
+END
+EditPatientController.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/EditPatientController.java
+END
+PatientQueueStatsPortletController.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/PatientQueueStatsPortletController.java
+END
+ViewFamilyFolderController.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/ViewFamilyFolderController.java
+END
+UpdateHouseholdInformationController.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/UpdateHouseholdInformationController.java
+END

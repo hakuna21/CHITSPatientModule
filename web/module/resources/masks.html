@@ -1,0 +1,32 @@
+<html>
+<head>
+	<script src="/openmrs/scripts/jquery/jquery.min.js?v=1.8.2.21762" type="text/javascript"></script>
+	<script src="/openmrs/scripts/jquery-ui/js/jquery-ui.custom.min.js?v=1.8.2.21762" type="text/javascript"></script>
+	<script src="/openmrs/moduleResources/chits/scripts/jquery-imask-min.js" type="text/javascript"></script>
+<script>
+$(document).ready(function(){
+	$("#crn").iMask({
+		type : 'fixed',
+		mask : '999-9999-9999-9',
+		stripMask : false
+	})
+
+	$("#tin").iMask({
+		type : 'fixed',
+		mask : '999-999-999',
+		stripMask : false
+	})
+});
+</script>
+</head>
+<body>
+
+<form method="get">
+	<table>
+		<tr><td>CRN</td><td><input type="text" name="crn" id="crn" value="abcd-efg"></td></tr>
+		<tr><td>TIN</td><td><input type="text" name="tin" id="tin"></td></tr>
+	</table>
+<input type="submit" value="Send it!" />
+</form>
+
+</body>

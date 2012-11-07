@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/webservices/rest/web/controller
+END
+SessionControllerV1_1.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/webservices/rest/web/controller/SessionControllerV1_1.java
+END
+CHITSUserAccessController.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/webservices/rest/web/controller/CHITSUserAccessController.java
+END
+FamilyFolderController.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/webservices/rest/web/controller/FamilyFolderController.java
+END
+CHITSPatientController.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/webservices/rest/web/controller/CHITSPatientController.java
+END
+ECCDController.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/webservices/rest/web/controller/ECCDController.java
+END
+MCPrenatalController.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/webservices/rest/web/controller/MCPrenatalController.java
+END
+CHITSSessionDataController.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/webservices/rest/web/controller/CHITSSessionDataController.java
+END
+CHITSDefaultersController.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/webservices/rest/web/controller/CHITSDefaultersController.java
+END
+ServerTimestamp.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/webservices/rest/web/controller/ServerTimestamp.java
+END
+MCPostnatalController.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/webservices/rest/web/controller/MCPostnatalController.java
+END
+MCTetanusToxoidController.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/webservices/rest/web/controller/MCTetanusToxoidController.java
+END

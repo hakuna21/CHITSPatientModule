@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/startup
+END
+InstallPackagedTemplates.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/startup/InstallPackagedTemplates.java
+END
+RemovePatientsInQueueTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/startup/RemovePatientsInQueueTask.java
+END
+RegisterAuditUtilTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/startup/RegisterAuditUtilTask.java
+END
+PurgeOldUserSessionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/startup/PurgeOldUserSessionInfo.java
+END
+CHITSStartupConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/startup/CHITSStartupConfiguration.java
+END
+InitApplicationVariables.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/startup/InitApplicationVariables.java
+END
+CHITSConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/startup/CHITSConfig.java
+END
+UpgradeCHITSConcepts.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/startup/UpgradeCHITSConcepts.java
+END

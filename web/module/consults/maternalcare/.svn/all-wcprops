@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare
+END
+ajaxAddEditObstetricHistoryDetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxAddEditObstetricHistoryDetail.jsp
+END
+ajaxMaternalCareHistoryChart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxMaternalCareHistoryChart.jsp
+END
+ajaxAddEditPrenatalVisitRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxAddEditPrenatalVisitRecord.jsp
+END
+fragmentMaternalCareTab.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/fragmentMaternalCareTab.jsp
+END
+ajaxChangePatientConsultStatus.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxChangePatientConsultStatus.jsp
+END
+ajaxViewIronSupplementationServiceRecordDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxViewIronSupplementationServiceRecordDetails.jsp
+END
+ajaxRedirectToFamilyPlanningProgram.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxRedirectToFamilyPlanningProgram.jsp
+END
+ajaxEndMaternalCareProgram.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxEndMaternalCareProgram.jsp
+END
+ajaxAddEditPostpartumInternalExaminationRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxAddEditPostpartumInternalExaminationRecord.jsp
+END
+ajaxViewVitaminAServiceRecordDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxViewVitaminAServiceRecordDetails.jsp
+END
+fragmentMaternalCareChart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/fragmentMaternalCareChart.jsp
+END
+fragmentOtherHistoryRegistrationForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/fragmentOtherHistoryRegistrationForm.jsp
+END
+ajaxEditDeliveryReport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxEditDeliveryReport.jsp
+END
+ajaxAddIronSupplementationServiceRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxAddIronSupplementationServiceRecord.jsp
+END
+ajaxViewPrenatalVisitRecordDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxViewPrenatalVisitRecordDetails.jsp
+END
+ajaxEditObstetricHistory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxEditObstetricHistory.jsp
+END
+ajaxViewPostPartumVisitRecordDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxViewPostPartumVisitRecordDetails.jsp
+END
+ajaxAddVitaminAServiceRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxAddVitaminAServiceRecord.jsp
+END
+ajaxObstetricHistoryDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxObstetricHistoryDetails.jsp
+END
+fragmentObstetricHistoryRegistrationForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/fragmentObstetricHistoryRegistrationForm.jsp
+END
+ajaxAddDewormingServiceRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxAddDewormingServiceRecord.jsp
+END
+ajaxAddTetanusServiceRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxAddTetanusServiceRecord.jsp
+END
+fragmentRegistrationFormHeader.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/fragmentRegistrationFormHeader.jsp
+END
+ajaxAddEditInternalExaminationRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxAddEditInternalExaminationRecord.jsp
+END
+fragmentRegularAccessScreen.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/fragmentRegularAccessScreen.jsp
+END
+ajaxEditBirthPlanChart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxEditBirthPlanChart.jsp
+END
+ajaxViewInternalExaminationRecordDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxViewInternalExaminationRecordDetails.jsp
+END
+ajaxViewTetanusServiceRecordDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxViewTetanusServiceRecordDetails.jsp
+END
+ajaxViewDewormingServiceRecordDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxViewDewormingServiceRecordDetails.jsp
+END
+ajaxAddEditPostPartumVisitRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/ajaxAddEditPostPartumVisitRecord.jsp
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/reports
+END
+ajaxMasterListOfPatientsReport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/reports/ajaxMasterListOfPatientsReport.jsp
+END
+ajaxDailyServicesReport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/reports/ajaxDailyServicesReport.jsp
+END
+ajaxMasterListOfFamiliesReport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/reports/ajaxMasterListOfFamiliesReport.jsp
+END
+ajaxNewlyRegisteredPatientsReport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/reports/ajaxNewlyRegisteredPatientsReport.jsp
+END
+queries.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/reports/queries.jsp
+END

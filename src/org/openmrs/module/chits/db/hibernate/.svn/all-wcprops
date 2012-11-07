@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/hibernate
+END
+HibernateFamilyFolderDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/hibernate/HibernateFamilyFolderDAO.java
+END
+HibernateTemplatesDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/hibernate/HibernateTemplatesDAO.java
+END
+HibernateAuditDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/hibernate/HibernateAuditDAO.java
+END
+HibernatePatientSearchDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/hibernate/HibernatePatientSearchDAO.java
+END
+HibernateCHITSConceptsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/hibernate/HibernateCHITSConceptsDAO.java
+END
+HibernatePatientQueueDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/hibernate/HibernatePatientQueueDAO.java
+END
+HibernateHouseholdInformationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/hibernate/HibernateHouseholdInformationDAO.java
+END

@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script src="/openmrs/scripts/jquery/jquery.min.js?v=1.8.2.21762" type="text/javascript"></script>
+    <script src="/openmrs/scripts/jquery-ui/js/jquery-ui.custom.min.js?v=1.8.2.21762" type="text/javascript"></script>
+    <script src="/openmrs/dwr/engine.js" type="text/javascript"></script>
+    <script src="/openmrs/dwr/interface/DWRBarangayService.js" type="text/javascript"></script>
+    <link href="/openmrs/scripts/jquery-ui/css/green/jquery-ui.custom.css" type="text/css" rel="stylesheet" />
+	<script src="/openmrs/moduleResources/chits/scripts/LocationFinder.js?v=1.8.2.21762" type="text/javascript" ></script>
+<style>
+	input.autocomplete { width: 225px; displayx: none; }
+</style>
+
+<script>
+var locationFinder = new LocationFinder()
+</script>
+<link rel="stylesheet" href="jquery-ui-1.8.14.custom.css" type="text/css"></link>
+</head>
+
+<body>
+
+
+<form action="#" method="GET">
+	<input type="button" value="Find Barangay" onclick="javascript:locationFinder.findBarangay(function(barangay) { alert('Chose: ' + barangay.name + '/' + barangay.barangayCode) })" />
+	<input type="button" value="Find City / Municipality" onclick="javascript:locationFinder.findMunicipality(function(municipality) { alert('Chose: ' + municipality.name + '/' + municipality.municipalityCode) })" />
+</form>
+
+</body></html>

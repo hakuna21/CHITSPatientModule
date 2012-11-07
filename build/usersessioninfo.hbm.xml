@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="org.openmrs.module.chits.audit">
+	<class name="UserSessionInfo" table="chits_user_session_info" batch-size="25">
+		<id name="userSessionInfoId" type="int" column="user_session_info_id"
+			unsaved-value="0">
+			<generator class="native" />
+		</id>
+		
+		<property name="sessionId" type="java.lang.String" column="session_id" not-null="false" length="32" />
+		<property name="remoteAddress" type="java.lang.String" column="remote_address" not-null="false" length="15" />
+		<property name="userAgent" type="java.lang.String" column="user_agent" not-null="false" length="128" />
+		<property name="loginTimestamp" type="java.util.Date" column="login_timestamp" not-null="false" length="19" />
+		<property name="logoutTimestamp" type="java.util.Date" column="logout_timestamp" not-null="false" length="19" />
+		<property name="sessionTimedOut" type="boolean" column="session_timed_out" not-null="false" length="1" />
+
+		<!-- bi-directional many-to-one association to User -->
+		<many-to-one name="user" column="user_id" class="org.openmrs.User" not-null="false" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults
+END
+AddPatientToQueueController.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/AddPatientToQueueController.java
+END
+ViewPatientHistoricalConsultsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/ViewPatientHistoricalConsultsController.java
+END
+SetConsultTimestampController.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/SetConsultTimestampController.java
+END
+ViewPatientVitalSignsHistoryController.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/ViewPatientVitalSignsHistoryController.java
+END
+StartPatientConsultController.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/StartPatientConsultController.java
+END
+ViewPatientAnthropometricHistoryController.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/ViewPatientAnthropometricHistoryController.java
+END
+ViewPatientConsultsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/ViewPatientConsultsController.java
+END
+GetNotesTemplateController.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/GetNotesTemplateController.java
+END
+EndPatientConsultController.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/EndPatientConsultController.java
+END
+UpdateAnthropometricDataController.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/UpdateAnthropometricDataController.java
+END
+UpdateVisitNotesController.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/UpdateVisitNotesController.java
+END
+SetFollowUpConsultController.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/SetFollowUpConsultController.java
+END
+UpdateVitalSignsDataController.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/UpdateVitalSignsDataController.java
+END
+EnrollInProgramController.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/EnrollInProgramController.java
+END
+UpdateMustSeePhysicianFlagController.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/genconsults/UpdateMustSeePhysicianFlagController.java
+END

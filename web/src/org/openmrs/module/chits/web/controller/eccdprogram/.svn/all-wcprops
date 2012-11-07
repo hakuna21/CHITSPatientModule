@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram
+END
+BaseUpdateChildCarePatientConsultDataController.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/BaseUpdateChildCarePatientConsultDataController.java
+END
+ViewServiceRecordsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/ViewServiceRecordsController.java
+END
+ConcludeChildCareProgramController.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/ConcludeChildCareProgramController.java
+END
+SubmitRegistrationController.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/SubmitRegistrationController.java
+END
+UpdateNewbornScreeningResultsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/UpdateNewbornScreeningResultsController.java
+END
+UpdateDeliveryInformationController.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/UpdateDeliveryInformationController.java
+END
+UpdateBreastFeedingInformationController.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/UpdateBreastFeedingInformationController.java
+END
+ViewChildCareController.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/ViewChildCareController.java
+END
+CHITSChildCareStartupConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/CHITSChildCareStartupConfiguration.java
+END
+UpdateChildCareParentsInformationController.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/UpdateChildCareParentsInformationController.java
+END
+UpdateNewbornScreeningInformationController.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/UpdateNewbornScreeningInformationController.java
+END
+UpdateVaccinationRecordsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/UpdateVaccinationRecordsController.java
+END
+AddServiceRecordController.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/eccdprogram/AddServiceRecordController.java
+END

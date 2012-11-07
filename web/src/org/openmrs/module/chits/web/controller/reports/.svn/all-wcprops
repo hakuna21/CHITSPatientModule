@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/reports
+END
+MasterListReportController.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/reports/MasterListReportController.java
+END
+BaseDateRangeReportController.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/reports/BaseDateRangeReportController.java
+END
+NewlyRegisteredPatientsReportController.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/reports/NewlyRegisteredPatientsReportController.java
+END
+MasterListOfFamiliesReportController.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/reports/MasterListOfFamiliesReportController.java
+END
+ReportForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/reports/ReportForm.java
+END
+DailyServicesReportController.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/reports/DailyServicesReportController.java
+END
+MasterListOfPatientsReportController.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/reports/MasterListOfPatientsReportController.java
+END

@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<!-- ********************************************************* -->
+<!-- ** CHITSPatient Module                                 ** -->
+<!-- **	                                                    ** -->
+<!-- ** @author Bren Zosa                                   ** -->
+<!-- ** @version 1.0                                        ** -->
+<!-- ********************************************************* -->
+<project name="CHITS Patient Module" default="package-module" xmlns:jacoco="antlib:org.jacoco.ant">
+		
+	<!-- *********************************************************** -->
+	<!-- **                     TARGETS                           ** -->
+	<!-- *********************************************************** -->
+	<target name="init" description="initialization">
+		<xmlcatalog id="common-dtds">
+	        <dtd 
+	            publicId="-//OpenMRS//DTD OpenMRS Config 1.2//EN"
+	            location="lib-common/config-1.2.dtd"/>
+	    </xmlcatalog>
+		
+		<xmlproperty file="metadata/config.xml" >
+			<xmlcatalog refid="common-dtds"/>
+		</xmlproperty>
+		
+		<xmlproperty file="metadata/config.xml" />
+
+		<filterset id="variables.to.replace">
+			<filter token="MODULE_ID" value="${module.id}" />
+			<filter token="MODULE_NAME" value="${module.name}" />
+			<filter token="MODULE_VERSION" value="${module.version}" />
+			<filter token="MODULE_PACKAGE" value="${module.package}" />
+		</filterset>
+		
+		<path id="classpath">
+			<fileset dir="lib">
+				<include name="**/*.jar"/>
+			</fileset>
+			<fileset dir="lib-common">
+				<include name="**/*.jar"/>
+			</fileset>
+		</path>
+
+	</target>
+
+	<target name="clean" description="Delete build and dist directories">
+		<delete dir="dist" />
+		<delete dir="build" />
+	</target>
+
+	<target name="compile-module" depends="clean,init" description="Compiles the module">
+		<mkdir dir="build" />
+		
+		<!-- Copy other source data to the build folder -->
+		<copy todir="build">
+			<fileset dir="src/" excludes="**/*.java" />
+		</copy>
+		
+		<!--  Compile module java files -->
+		<javac destdir="build" classpathref="classpath" debug="true" debuglevel="lines,source,vars">
+			<compilerarg line="-g" />
+			<src path="src/" />
+			<include name="**/*.java" />
+		</javac>
+		
+		<!--  Compile module web java files -->
+		<javac destdir="build" classpathref="classpath" debug="true" debuglevel="lines,source,vars">
+			<compilerarg line="-g" />
+			<src path="web/src/" />
+			<include name="**/*.java" />
+		</javac>
+		
+	</target>
+	
+	<target name="package-module" depends="compile-module" description="Packages module into jar file">
+		<mkdir dir="dist" />
+		
+		<!-- Copy module metadata -->
+		<copy todir="build/">
+			<fileset dir="metadata/" includes="**/*" />
+			<filterset refid="variables.to.replace" />
+		</copy>
+		
+		<!-- Copy module web data -->
+		<copy todir="build/web/module/">
+			<fileset dir="web/module/" includes="**/*" excludes="resources/**/*,**/*.zip" />
+			<filterset refid="variables.to.replace" />
+		</copy>
+		
+		<!-- Copy the /web/resources folder separately so that image files are not corrupted --> 
+		<copy todir="build/web/module/">
+			<fileset dir="web/module/" includes="resources/**/*,**/*.zip" />
+		</copy>
+		
+		<!-- Copy lib folder -->
+		<!-- (lib should only contain this module's required -->
+		<!-- libraries that OpenMRS doesn't contain already) -->
+		<copy todir="build/lib" failonerror="false">
+			<fileset dir="lib" includes="**/*" />
+		</copy>
+		
+		<!-- Create distributable jar file -->
+		<jar destfile="dist/${module.id}-${module.version}.omod">
+			<fileset dir="build">
+				<include name="**/*" />
+				<exclude name="test/**/*" />
+			</fileset>
+		</jar>
+	</target>
+	
+	<target name="deploy-web" depends="package-module">
+		<property environment="env"/>
+		<copy todir="${env.CATALINA_HOME}/webapps/openmrs/WEB-INF/view/module/${module.id}">
+			<fileset dir="web/module" includes="**/*" />
+		</copy>
+	</target>
+	
+	<target name="package-jar" depends="package-module" description="Packages class files into jar file to be included in other projects">
+		<!-- Create distributable jar file -->
+		<jar destfile="dist/${module.id}-${module.version}.jar">
+			<fileset dir="build" >
+				<exclude name="web/**/*" />
+				<exclude name="test/**/*" />
+			</fileset>
+		</jar>
+	</target>
+
+	<target name="jacoco">
+		<echo>NOTE: Be sure to have added the jacoco agent to tomcat6w.exe under 'Java Options'</echo>
+		<echo>e.g.:  -javaagent:C:/apps/jacoco/jacocoagent.jar=port=6300,output=tcpserver</echo>
+		<echo>Install the EclEMMA plugin to view the execution data (dist/chits.exec) from update site: http://update.eclemma.org/</echo>
+		<taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
+			<classpath path="lib-common/jacocoant.jar"/>
+		</taskdef>
+		<jacoco:dump address="127.0.0.1" reset="true" destfile="dist/chits.exec" />
+	</target>
+	
+</project>
+

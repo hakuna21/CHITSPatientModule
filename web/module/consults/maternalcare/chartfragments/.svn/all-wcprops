@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments
+END
+deliveryReport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/deliveryReport.jsp
+END
+ajaxPostpartumInternalExaminations.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/ajaxPostpartumInternalExaminations.jsp
+END
+lastPrenatalVisit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/lastPrenatalVisit.jsp
+END
+obstetricHistoryForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/obstetricHistoryForm.jsp
+END
+registrationInformation.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/registrationInformation.jsp
+END
+birthPlanChart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/birthPlanChart.jsp
+END
+consultStatusHistory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/consultStatusHistory.jsp
+END
+maternalCareProgramChart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/maternalCareProgramChart.jsp
+END
+prenatalRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/prenatalRecord.jsp
+END
+postpartumRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/postpartumRecord.jsp
+END
+referralFeedbackNotes.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/referralFeedbackNotes.jsp
+END
+tetanusStatus.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/tetanusStatus.jsp
+END
+importantDates.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/importantDates.jsp
+END
+otherRegistrationInformation.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/otherRegistrationInformation.jsp
+END
+lastIEResults.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/lastIEResults.jsp
+END
+dangerSignsAndMedicalConditions.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/dangerSignsAndMedicalConditions.jsp
+END
+internalExaminationRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/maternalcare/chartfragments/internalExaminationRecord.jsp
+END

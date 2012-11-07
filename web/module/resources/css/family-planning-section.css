@@ -1,0 +1,48 @@
+#familyplanning-section { width:100%; margin: 0px; border: 2px solid #e8e8e8; }
+#familyplanning-section h3 { color: #111; margin: 0px; }
+
+#subGeneralForm legend span,
+#generalForm legend span,
+#familyplanning-section legend span {
+	font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	color: #333;
+}
+
+#subGeneralForm legend span.alert,
+#generalForm legend span.alert,
+#familyplanning-section legend span.alert { font-size: 14px; color: red; }
+#subGeneralForm fieldset,
+#generalForm fieldset,
+#familyplanning-section fieldset { border-color: #9C8; margin-top: 0.5em; border-radius:5px; }
+#familyplanning-section td.left { background-color: #9C8; }
+#familyplanning-section td.right { background-color: #9C8; }
+#generalForm input[type=radio],
+#familyplanning-section input[type=radio] { margin-top: 0; padding-top: 0; margin-bottom: 0; padding-bottom: 0; } 
+
+#familyplanning-section hr { width: 96%; margin-top: 1.5em; } 
+#registration-header .header * { width: 100%; text-align: center; }
+#registration-header .header-note { width: 100%; text-align: justify; }
+
+table.full-width { width: 100%; }
+
+table.registration td { padding-top: 0px; padding-bottom: 0.1em; }
+table.registration td.label { white-space: nowrap; }
+table.field input, table.field label, table.field select, 
+table.registration td, table.registration td * { vertical-align: middle; }
+table.field .error { white-space: normal; } 
+#familyplanning-section div.grouped-block {background-color: white; width: 98%; border: 1px solid #444; padding: 0.2em; }
+span.obsElapsedSince, span.obsTaken { white-space: normal; }
+
+#final-ob-score td, #final-ob-score th { text-align: center; }
+#final-ob-score input { text-align: center; }
+
+#generalForm table.form td, #generalForm table.form th, 
+#familyplanning-section table.form td, #familyplanning-section table.form th { text-align: center; }
+
+#generalForm table.chart td, #generalForm table.chart th { text-align: left; }
+#familyplanning-section table.chart td, #familyplanning-section table.chart th { text-align: left; }
+#familyplanning-section table.form td, #familyplanning-section table.form th { font-size: 12px; padding: 1px; margin: 0; }

@@ -1,0 +1,20 @@
+<%@ page buffer="128kb"
+%><%@ taglib prefix="chits_tag" tagdir="/WEB-INF/tags/module/chits" 
+%><%@ include file="/WEB-INF/template/include.jsp" %>
+
+<h3>Tetanus Toxoid Vaccination</h3>
+<c:set   var="tt1Obs" value="${chits:observation(form.patient, TetanusToxoidDateAdministeredConcepts.TT1)}"
+/><c:set var="tt2Obs" value="${chits:observation(form.patient, TetanusToxoidDateAdministeredConcepts.TT2)}"
+/><c:set var="tt3Obs" value="${chits:observation(form.patient, TetanusToxoidDateAdministeredConcepts.TT3)}"
+/><c:set var="tt4Obs" value="${chits:observation(form.patient, TetanusToxoidDateAdministeredConcepts.TT4)}"
+/><c:set var="tt5Obs" value="${chits:observation(form.patient, TetanusToxoidDateAdministeredConcepts.TT5)}"
+/><table class="full-width form registration">
+<thead><tr><th>TT DOSE</th><th>DATE GIVEN</th><th>SERVICE SOURCE</th><th>REMARKS</th></tr></thead>
+<tbody>
+	<tr><td>TT1</td><td><c:if test="${not empty tt1Obs.valueDatetime}"><a href="#" onclick='loadAjaxForm("viewTetanusServiceRecord.form?patientId=${form.patient.patientId}&tetanusServiceRecordObsId=${tt1Obs.obsGroup.obsId}", "VIEW TETANUS SERVICE RECORD", ${form.patient.patientId}, 370); return false;'><fmt:formatDate pattern="MM/dd/yyyy" value="${tt1Obs.valueDatetime}" /></a></c:if></td><td><chits_tag:obsValue obs="${chits:observation(tt1Obs.obsGroup, TetanusToxoidRecordConcepts.SERVICE_SOURCE)}" /></td><td><chits_tag:obsValue obs="${chits:observation(tt1Obs.obsGroup, TetanusToxoidRecordConcepts.REMARKS)}" noData="none" /></td></tr>
+	<tr><td>TT2</td><td><c:if test="${not empty tt2Obs.valueDatetime}"><a href="#" onclick='loadAjaxForm("viewTetanusServiceRecord.form?patientId=${form.patient.patientId}&tetanusServiceRecordObsId=${tt2Obs.obsGroup.obsId}", "VIEW TETANUS SERVICE RECORD", ${form.patient.patientId}, 370); return false;'><fmt:formatDate pattern="MM/dd/yyyy" value="${tt2Obs.valueDatetime}" /></a></c:if></td><td><chits_tag:obsValue obs="${chits:observation(tt2Obs.obsGroup, TetanusToxoidRecordConcepts.SERVICE_SOURCE)}" /></td><td><chits_tag:obsValue obs="${chits:observation(tt2Obs.obsGroup, TetanusToxoidRecordConcepts.REMARKS)}" noData="none" /></td></tr>
+	<tr><td>TT3</td><td><c:if test="${not empty tt3Obs.valueDatetime}"><a href="#" onclick='loadAjaxForm("viewTetanusServiceRecord.form?patientId=${form.patient.patientId}&tetanusServiceRecordObsId=${tt3Obs.obsGroup.obsId}", "VIEW TETANUS SERVICE RECORD", ${form.patient.patientId}, 370); return false;'><fmt:formatDate pattern="MM/dd/yyyy" value="${tt3Obs.valueDatetime}" /></a></c:if></td><td><chits_tag:obsValue obs="${chits:observation(tt3Obs.obsGroup, TetanusToxoidRecordConcepts.SERVICE_SOURCE)}" /></td><td><chits_tag:obsValue obs="${chits:observation(tt3Obs.obsGroup, TetanusToxoidRecordConcepts.REMARKS)}" noData="none" /></td></tr>
+	<tr><td>TT4</td><td><c:if test="${not empty tt4Obs.valueDatetime}"><a href="#" onclick='loadAjaxForm("viewTetanusServiceRecord.form?patientId=${form.patient.patientId}&tetanusServiceRecordObsId=${tt4Obs.obsGroup.obsId}", "VIEW TETANUS SERVICE RECORD", ${form.patient.patientId}, 370); return false;'><fmt:formatDate pattern="MM/dd/yyyy" value="${tt4Obs.valueDatetime}" /></a></c:if></td><td><chits_tag:obsValue obs="${chits:observation(tt4Obs.obsGroup, TetanusToxoidRecordConcepts.SERVICE_SOURCE)}" /></td><td><chits_tag:obsValue obs="${chits:observation(tt4Obs.obsGroup, TetanusToxoidRecordConcepts.REMARKS)}" noData="none" /></td></tr>
+	<tr><td>TT5</td><td><c:if test="${not empty tt5Obs.valueDatetime}"><a href="#" onclick='loadAjaxForm("viewTetanusServiceRecord.form?patientId=${form.patient.patientId}&tetanusServiceRecordObsId=${tt5Obs.obsGroup.obsId}", "VIEW TETANUS SERVICE RECORD", ${form.patient.patientId}, 370); return false;'><fmt:formatDate pattern="MM/dd/yyyy" value="${tt5Obs.valueDatetime}" /></a></c:if></td><td><chits_tag:obsValue obs="${chits:observation(tt5Obs.obsGroup, TetanusToxoidRecordConcepts.SERVICE_SOURCE)}" /></td><td><chits_tag:obsValue obs="${chits:observation(tt5Obs.obsGroup, TetanusToxoidRecordConcepts.REMARKS)}" noData="none" /></td></tr>
+</tbody>
+</table>

@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common
+END
+jsp-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/jsp-api.jar
+END
+webservices.rest-0.8.21639.omod.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/webservices.rest-0.8.21639.omod.jar
+END
+jacocoagent.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/jacocoagent.jar
+END
+spring-context-3.0.5.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/spring-context-3.0.5.RELEASE.jar
+END
+jacocoant.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/jacocoant.jar
+END
+commons-collections-3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/commons-collections-3.2.jar
+END
+commons-codec-1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/commons-codec-1.5.jar
+END
+spring-web-3.0.5.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/spring-web-3.0.5.RELEASE.jar
+END
+spring-2.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/spring-2.5.1.jar
+END
+liquibase-core-1.9.4-mod.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/liquibase-core-1.9.4-mod.jar
+END
+openmrs-web-1.8.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/openmrs-web-1.8.2.jar
+END
+commons-lang-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/commons-lang-2.4.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/hibernate3.jar
+END
+junit-3.8.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/junit-3.8.1.jar
+END
+tests-openmrs-api-1.5.0.7125-dev.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/tests-openmrs-api-1.5.0.7125-dev.jar
+END
+chits-tags.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/chits-tags.jar
+END
+openmrs-api-1.8.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/openmrs-api-1.8.2.jar
+END
+config-1.2.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/config-1.2.dtd
+END
+spring-webmvc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/spring-webmvc.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/commons-logging-1.0.4.jar
+END
+webservices.rest-api-0.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/webservices.rest-api-0.8.jar
+END
+commons-beanutils-1.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/commons-beanutils-1.7.0.jar
+END
+commons-fileupload-1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/commons-fileupload-1.2.1.jar
+END
+servlet-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/lib-common/servlet-api.jar
+END

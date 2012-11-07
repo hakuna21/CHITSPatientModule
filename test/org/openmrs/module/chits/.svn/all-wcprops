@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/test/org/openmrs/module/chits
+END
+CHITSPatientModuleTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/test/org/openmrs/module/chits/CHITSPatientModuleTest.java
+END
+UUIDTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/test/org/openmrs/module/chits/UUIDTest.java
+END
+LocaleTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/test/org/openmrs/module/chits/LocaleTest.java
+END
+ClassificationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/test/org/openmrs/module/chits/ClassificationTest.java
+END
+IntervalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/test/org/openmrs/module/chits/IntervalTest.java
+END
+MappingsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/test/org/openmrs/module/chits/MappingsTest.java
+END

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning
+END
+fragmentPelvicExam.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/fragmentPelvicExam.jsp
+END
+ajaxFamilyPlanningHistoryChart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/ajaxFamilyPlanningHistoryChart.jsp
+END
+fragmentFamilyPlanningChart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/fragmentFamilyPlanningChart.jsp
+END
+fragmentPlanningMethod.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/fragmentPlanningMethod.jsp
+END
+ajaxAddEditServiceDeliveryRecord.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/ajaxAddEditServiceDeliveryRecord.jsp
+END
+fragmentObstetricalHistory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/fragmentObstetricalHistory.jsp
+END
+fragmentMedicalHistory.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/fragmentMedicalHistory.jsp
+END
+ajaxFPMethodUpdateForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/ajaxFPMethodUpdateForm.jsp
+END
+ajaxFPMethodDropoutForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/ajaxFPMethodDropoutForm.jsp
+END
+ajaxSetDateOfNextService.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/ajaxSetDateOfNextService.jsp
+END
+ajaxViewFamilyPlanningMethodDetails.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/ajaxViewFamilyPlanningMethodDetails.jsp
+END
+fragmentRegularAccessScreen.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/fragmentRegularAccessScreen.jsp
+END
+fragmentFamilyInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/fragmentFamilyInfo.jsp
+END
+fragmentFamilyPlanningTab.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/fragmentFamilyPlanningTab.jsp
+END
+fragmentRiskFactors.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/fragmentRiskFactors.jsp
+END
+fragmentPhysicalExam.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/fragmentPhysicalExam.jsp
+END
+fragmentAjaxUpdateHeader.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/module/consults/familyplanning/fragmentAjaxUpdateHeader.jsp
+END

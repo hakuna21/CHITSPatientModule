@@ -1,0 +1,44 @@
+#maternalcare-section { width:100%; margin: 0px; border: 2px solid #e8e8e8; }
+#maternalcare-section h3 { color: #111; margin: 0px; }
+
+#subGeneralForm legend span,
+#generalForm legend span,
+#maternalcare-section legend span {
+	font-family: "Trebuchet MS", Arial, Helvetica, Sans-Serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	color: #333;
+}
+
+#subGeneralForm legend span.alert,
+#generalForm legend span.alert,
+#maternalcare-section legend span.alert { font-size: 14px; color: red; }
+#subGeneralForm fieldset,
+#generalForm fieldset,
+#maternalcare-section fieldset { border-color: #C8A; margin-top: 0.5em; border-radius:5px; }
+#maternalcare-section td.left { background-color: #C8A; }
+#maternalcare-section td.right { background-color: #C8A; }
+#generalForm input[type=radio],
+#maternalcare-section input[type=radio] { margin-top: 0; padding-top: 0; margin-bottom: 0; padding-bottom: 0; } 
+
+#maternalcare-section hr { width: 96%; margin-top: 1.5em; } 
+#registration-header .header * { width: 100%; text-align: center; }
+#registration-header .header-note { width: 100%; text-align: justify; }
+
+table.full-width { width: 100%; }
+
+table.registration td { padding-top: 0px; padding-bottom: 0.1em; }
+table.registration td.label { white-space: nowrap; }
+table.field input, table.field label, table.field select, 
+table.registration td, table.registration td * { vertical-align: middle; }
+table.field .error { white-space: normal; } 
+#maternalcare-section div.grouped-block {background-color: white; width: 98%; border: 1px solid #444; padding: 0.2em; }
+span.obsElapsedSince, span.obsTaken { white-space: normal; }
+
+#final-ob-score td, #final-ob-score th { text-align: center; }
+#final-ob-score input { text-align: center; }
+
+#generalForm table.form td, #generalForm table.form th, 
+#maternalcare-section table.form td, #maternalcare-section table.form th { text-align: center; }

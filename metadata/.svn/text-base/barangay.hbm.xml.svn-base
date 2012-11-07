@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="org.openmrs.module.chits" >
+	<class name="Barangay" table="chits_barangay" batch-size="25">
+		<id name="barangayCode" type="int" column="barangay_code" unsaved-value="0" />
+		<property name="name" type="java.lang.String" column="name" length="64" />
+		<property name="urban" type="boolean" column="urban" />
+		<property name="partiallyUrban" type="boolean" column="partially_urban" />
+		<property name="rural" type="boolean" column="rural" />		
+		<property name="population" type="int" column="population" />
+
+		<many-to-one name="municipality" class="Municipality" not-null="true">
+			<column name="municipality_code" />
+		</many-to-one>
+	</class>
+</hibernate-mapping>

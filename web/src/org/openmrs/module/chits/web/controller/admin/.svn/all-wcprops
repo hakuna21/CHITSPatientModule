@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin
+END
+ManageAuthorizedBarangaysController.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/ManageAuthorizedBarangaysController.java
+END
+InstallCHITSConceptsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/InstallCHITSConceptsController.java
+END
+CHITSUserFormController.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/CHITSUserFormController.java
+END
+UpgradeCHITSConceptsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/UpgradeCHITSConceptsController.java
+END
+InstallThemeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/InstallThemeController.java
+END
+UploadConceptsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/UploadConceptsController.java
+END
+ValidateAnswersAndSetsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/ValidateAnswersAndSetsController.java
+END
+UploadDrugCodesController.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/UploadDrugCodesController.java
+END
+CreateDummyAnthropometricDataController.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/CreateDummyAnthropometricDataController.java
+END
+LoggedInUsersController.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/LoggedInUsersController.java
+END
+ValidateConceptsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/ValidateConceptsController.java
+END
+InstallPackagedTemplatesController.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/InstallPackagedTemplatesController.java
+END
+ValidateRequiredConceptsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/ValidateRequiredConceptsController.java
+END
+UploadICD10CodesController.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/UploadICD10CodesController.java
+END
+UploadTemplatesController.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/UploadTemplatesController.java
+END
+CreateDummyDataController.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/controller/admin/CreateDummyDataController.java
+END

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<hibernate-mapping package="@MODULE_PACKAGE@">
+	<class name="Municipality" table="chits_municipality" batch-size="25">
+		<id name="municipalityCode" type="int" column="municipality_code" unsaved-value="0" />
+		<property name="name" type="java.lang.String" column="name" length="64" />
+		<property name="incomeClass" type="java.lang.String" column="income_class" length="64" />
+		<property name="cityClass" type="java.lang.String" column="city_class" length="64" />
+		<property name="urban" type="boolean" column="urban" />
+		<property name="partiallyUrban" type="boolean" column="partially_urban" />
+		<property name="rural" type="boolean" column="rural" />		
+		<property name="district" type="java.lang.String" column="district" length="64" />
+		<property name="registeredVoters" type="int" column="registered_voters" />
+		<property name="population" type="int" column="population" />
+		<property name="landArea" type="java.lang.String" column="land_area" length="64" />
+
+		<many-to-one name="province" class="Province" not-null="true">
+			<column name="province_code" />
+		</many-to-one>
+
+		<set name="barangays" inverse="true" cascade="all" order-by="name" access="field">
+			<key column="municipality_code" />
+			<one-to-many class="Barangay" />
+		</set>
+	</class>
+</hibernate-mapping>

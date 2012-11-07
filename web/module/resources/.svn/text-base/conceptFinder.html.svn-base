@@ -1,0 +1,61 @@
+<html>
+<head>
+    <script src="/openmrs/scripts/jquery/jquery.min.js?v=1.8.2.21762" type="text/javascript"></script>
+    <script src="/openmrs/scripts/jquery-ui/js/jquery-ui.custom.min.js?v=1.8.2.21762" type="text/javascript"></script>
+    <script src="/openmrs/dwr/engine.js" type="text/javascript"></script>
+    <script src="/openmrs/dwr/interface/DWRCHITSConceptService.js" type="text/javascript"></script>
+    <link href="/openmrs/scripts/jquery-ui/css/green/jquery-ui.custom.css" type="text/css" rel="stylesheet" />
+	<style>
+		input.autocomplete { width: 225px; displayx: none; }
+	</style>
+
+<script>
+var $j = jQuery.noConflict();
+
+$j(document).ready(function() {
+	$j("input[name='complaint']").autocomplete({
+		minLength: 2,delay: 500,source: function(request, response) {
+			DWRCHITSConceptService.findConceptAnswers('Complaint', request.term, function(concepts) {
+				$j.each(concepts, function() {
+					this.label = this.name
+					this.value = this.name;
+				});
+
+				if (concepts.length > 0) {
+					response(concepts);
+				} else {
+					response([{label:'No matching results', value: ''}])
+				}
+			});
+		}, select: function(event, ui) {
+			alert("Retrieving concept with ID: " + ui.item.conceptId);
+		}
+	});
+	
+	$j("input[name='observationMap[Complaint Notes].valueText']").autocomplete({
+		minLength: 2,delay: 1000,source: function(request, response) {
+			DWRCHITSConceptService.findConceptSetMembers('Complaint Notes', request.term, function(concepts) {
+				$j.each(concepts, function() {
+					this.label = this.name
+					this.value = this.name;
+				});
+
+				response(concepts);
+			});
+		}, select: function(event, ui) {
+			alert("Retrieving concept with ID: " + ui.item.conceptId);
+		}
+	});
+})
+</script>
+</head>
+
+<body>
+
+
+<form action="#" method="GET">
+	Choose complaint: <input type="text" name="complaint" class='autocomplete' /><br/>
+	Choose History Notes Template: <input type="text" name="historyNotesTemplate" class='autocomplete'><br/>
+</form>
+
+</body></html>

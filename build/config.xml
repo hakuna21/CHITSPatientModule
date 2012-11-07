@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//OpenMRS//DTD OpenMRS Config 1.2//EN" "../lib-common/config-1.2.dtd">
+
+<module configVersion="1.2">
+	<id>chits</id>
+	<name>CHITS Patient Module</name>
+	<version>1.1.12</version>
+	<package>org.openmrs.module.chits</package>
+	<author>Manilasoft</author>
+	<description>
+		CHITS Patient Module for implementation specific needs
+	</description>
+	<activator>org.openmrs.module.chits.CHITSPatientModuleActivator</activator>
+	<require_version>1.8.2.0000</require_version>
+	<require_modules>
+		<require_module version="0.8">org.openmrs.module.webservices.rest</require_module>
+	</require_modules>
+
+	<extension>
+		<point>org.openmrs.admin.list</point>
+		<class>org.openmrs.module.chits.extension.html.AdminExt</class>
+	</extension>
+
+	<!--
+	<extension>
+		<point>org.openmrs.admin.list</point>
+		<class>org.openmrs.module.chits.extension.html.AdminReportsExt</class>
+	</extension>
+	-->
+
+	<!-- AOP -->
+	<advice>
+ 		<point>org.openmrs.api.PatientService</point>
+		<class>org.openmrs.module.chits.advice.PatientServiceAfterAdvice</class>
+	</advice>
+	<advice>
+ 		<point>org.openmrs.api.ProgramWorkflowService</point>
+		<class>org.openmrs.module.chits.fpprogram.advice.AutomaticDropoutForQueuedPatients</class>
+	</advice>
+	<advice>
+ 		<point>org.openmrs.module.chits.CHITSService</point>
+		<class>org.openmrs.module.chits.fpprogram.advice.AutomaticDropoutForQueuedPatients</class>
+	</advice>
+
+	<privilege>
+		<name>Purge Orders</name>
+		<description>Required by org.openmrs.api.OrderService#purgeOrder(org.openmrs.Order)</description>
+	</privilege>
+	
+	<privilege>
+		<name>Purge Encounters</name>
+		<description>Required by org.openmrs.api.EncounterService#purgeEncounter(org.openmrs.Encounter)</description>
+	</privilege>
+
+	<globalProperty>
+		<property>chits.family.folder.code.format</property>
+		<defaultValue>'HC01FAM'000000</defaultValue>
+		<description>The java.text.DecimalFormat format to use for formatting the primary key ID into a family folder code.</description>
+	</globalProperty>
+	<globalProperty>
+		<property>chits.patient.identifier.format</property>
+		<defaultValue>'HC01P'000000</defaultValue>
+		<description>The java.text.DecimalFormat format to use for formatting a patient identifier code.</description>
+	</globalProperty>
+	<globalProperty>
+		<property>crn.mask</property>
+		<defaultValue>999-9999-999-9</defaultValue>
+		<description>Masked input for Common Reference Numbers</description>
+	</globalProperty>
+	<globalProperty>
+		<property>tin.mask</property>
+		<defaultValue>999-999-999-999</defaultValue>
+		<description>Masked input for Tax Identification Numbers</description>
+	</globalProperty>
+	<globalProperty>
+		<property>sss.mask</property>
+		<defaultValue>99-9999999-9</defaultValue>
+		<description>Masked input for Social Security Numbers</description>
+	</globalProperty>
+	<globalProperty>
+		<property>gsis.mask</property>
+		<defaultValue>99999999999</defaultValue>
+		<description>Masked input for GSIS numbers</description>
+	</globalProperty>
+	<globalProperty>
+		<property>philhealth.mask</property>
+		<defaultValue>9999-9999-9999</defaultValue>
+		<description>Masked input for PHILHEALTH numbers</description>
+	</globalProperty>
+	<globalProperty>
+		<property>enable.queue.time.tracking</property>
+		<defaultValue>false</defaultValue>
+		<description>Determines if queue time should be tracked, or if consult time of patient should automatically start when placed in queue</description>
+	</globalProperty>
+	<globalProperty>
+		<property>chits.clear.queue.on.restart</property>
+		<defaultValue>true</defaultValue>
+		<description>Determines if the patient queue should be cleared when the server is restarted</description>
+	</globalProperty>
+	
+	<globalProperty>
+		<property>chits.health.center.name</property>
+		<defaultValue>TELEHEALTH CENTER</defaultValue>
+		<description>Health center name displayed in banner</description>
+	</globalProperty>
+	<globalProperty>
+		<property>chits.health.center.address</property>
+		<defaultValue>Mapayapa St., San Isidro, QC&lt;br/&gt;Tel. No. .....</defaultValue>
+		<description>Health center address displayed in banner</description>
+	</globalProperty>
+	<globalProperty>
+		<property>chits.nthc.telephone</property>
+		<defaultValue>Tel No: ....</defaultValue>
+		<description>NTHC Telephone number displayed in left nav bar</description>
+	</globalProperty>
+	<globalProperty>
+		<property>chits.copyright.info</property>
+		<defaultValue>Copyright &amp;copy; 2012 National Telehealth Center - University of the Philippines Manila</defaultValue>
+		<description>Copyright text appearing at footer</description>
+	</globalProperty>
+	<globalProperty>
+		<property>chits.banner.image</property>
+		<defaultValue>/theme/images/Header-upm-nthc.jpg</defaultValue>
+		<description>Banner image location relative to the context root</description>
+	</globalProperty>
+	<globalProperty>
+		<property>chits.user.session.retention.days</property>
+		<defaultValue>7</defaultValue>
+		<description>The number of days to retain user session information</description>
+	</globalProperty>
+	<globalProperty>
+		<property>chits.low.birthwate.vaccination.warning</property>
+		<defaultValue>2.5</defaultValue>
+		<description>The threshold below which a &apos;LOW BIRTH WEIGHT&apos; warning message will be displayed on the vaccination update screen</description>
+	</globalProperty>
+	<globalProperty>
+		<property>chits.eccd.high.temperature.warning</property>
+		<defaultValue>37.5</defaultValue>
+		<description>The threshold at (and above) which a child&apos;s temperature will be flagged</description>
+	</globalProperty>
+	<globalProperty>
+		<property>chits.concepts.version</property>
+		<defaultValue>0</defaultValue>
+		<description>Version ID of the UpgradeCHITSConceptsController used for determining if an upgrade is necessary during startup</description>
+	</globalProperty>
+	<globalProperty>
+		<property>chits.templates.version</property>
+		<defaultValue>0</defaultValue>
+		<description>Version ID of the InstallPackagedTemplatesController used for determining if an upgrade is necessary during startup</description>
+	</globalProperty>
+	<!-- /Required Global Properties -->
+
+	<dwr>
+		<allow>
+			<convert converter="bean" match="org.openmrs.module.chits.Barangay" />
+			<convert converter="bean" match="org.openmrs.module.chits.Municipality" />
+			<convert converter="bean" match="org.openmrs.module.chits.Province" />
+			<convert converter="bean" match="org.openmrs.module.chits.Region" />
+			<convert converter="bean" match="org.openmrs.web.dwr.PatientListItem" />
+			<convert converter="bean" match="org.openmrs.module.chits.web.ICD10ConceptListItem" />
+			<convert converter="bean" match="org.openmrs.module.chits.web.DrugConceptListItem" />
+			<convert converter="bean" match="org.openmrs.module.chits.web.FamilyFolderListItem" />
+			<convert converter="hibernate3" match="org.openmrs.module.chits.FamilyFolder" />
+
+			<create creator="new" javascript="DWRBarangayService">
+				<param name="class" value="org.openmrs.module.chits.web.DWRBarangayService" />
+				<include method="getProvinces" />
+				<include method="getMunicipalities" />
+				<include method="getBarangays" />
+				<include method="findMunicipalities" />
+				<include method="findBarangays" />
+			</create>
+
+			<create creator="new" javascript="DWRFamilyFolderService">
+				<param name="class" value="org.openmrs.module.chits.web.DWRFamilyFolderService" />
+				<include method="findCountAndFamilyFolders" />
+			</create>
+
+			<create creator="new" javascript="DWRPatientSearchService">
+				<param name="class" value="org.openmrs.module.chits.web.DWRPatientSearchService" />
+				<include method="findCountAndPatients" />
+			</create>
+
+			<create creator="new" javascript="DWRFemalePatientSearchService">
+				<param name="class" value="org.openmrs.module.chits.web.DWRFemalePatientSearchService" />
+				<include method="findCountAndFemalePatients" />
+			</create>
+
+			<create creator="new" javascript="DWRMalePatientSearchService">
+				<param name="class" value="org.openmrs.module.chits.web.DWRMalePatientSearchService" />
+				<include method="findCountAndMalePatients" />
+			</create>
+
+			<create creator="new" javascript="DWRCHITSConceptService">
+				<param name="class" value="org.openmrs.module.chits.web.DWRCHITSConceptService" />
+				<include method="findICD10Concepts" />
+				<include method="findICD10ConceptSetMembers" />
+				<include method="findDrugs" />
+			</create>
+		</allow>
+
+		<signatures>
+			<![CDATA[
+			import org.openmrs.module.chits.web.DWRBarangayService;
+			import org.openmrs.module.chits.web.DWRFamilyFolderService;
+			import org.openmrs.module.chits.Barangay;
+			import org.openmrs.module.chits.Municipality;
+			import org.openmrs.module.chits.Province;
+			import org.openmrs.module.chits.Region;
+			import org.openmrs.module.chits.FamilyFolder;
+			import org.openmrs.web.dwr.PatientListItem;
+			import org.openmrs.module.chits.web.ICD10ConceptListItem;
+			import org.openmrs.module.chits.web.DrugConceptListItem;
+			import java.util.List;
+
+			DWRBarangayService.getProvinces(Integer regionCode);
+			DWRBarangayService.getMunicipalities(Integer provinceCode);
+			DWRBarangayService.getBarangays(Integer municipalityCode);
+			DWRBarangayService.findMunicipalities(Integer regionCode, Integer provinceCode, String like);
+			DWRBarangayService.findBarangays(Integer regionCode, Integer provinceCode, Integer municipalityCode, String like);
+			DWRFamilyFolderService.findCountAndFamilyFolders(String barangayCode, String searchValue, Integer start, Integer length, boolean getMatchCount);
+			DWRPatientSearchService.findCountAndPatients(String searchValue, Integer start, Integer length, boolean getMatchCount);
+			DWRFemalePatientSearchService.findCountAndFemalePatients(String searchValue, Integer start, Integer length, boolean getMatchCount);
+			DWRMalePatientSearchService.findCountAndMalePatients(String searchValue, Integer start, Integer length, boolean getMatchCount);
+			DWRCHITSConceptService.findICD10Concepts(Integer parentConcept, String searchValue);
+			DWRCHITSConceptService.findICD10ConceptSetMembers(Integer parentConcept, String searchValue);
+			DWRCHITSConceptService.findDrugs(String);
+			]]>
+		</signatures>
+	</dwr>
+
+	<!-- Internationalization -->
+	<!-- All message codes should start with chits.* -->
+	<messages>
+		<lang>en</lang>
+		<file>messages.properties</file>
+	</messages>
+	<!-- /Internationalization -->
+
+	<mappingFiles>
+		region.hbm.xml
+		province.hbm.xml
+		municipality.hbm.xml
+		barangay.hbm.xml
+		familyfolder.hbm.xml
+		patientqueue.hbm.xml
+		userbarangay.hbm.xml
+		householdinformation.hbm.xml
+		usersessioninfo.hbm.xml
+	</mappingFiles>
+</module>

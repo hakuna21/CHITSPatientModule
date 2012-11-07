@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/portlets
+END
+patientQueue.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/portlets/patientQueue.jsp
+END
+patientQueueStats.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/module/portlets/patientQueueStats.jsp
+END

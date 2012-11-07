@@ -1,0 +1,70 @@
+div.error { white-space: nowrap; margin-top:0.1em; }
+#openmrsSearchTable_wrapper { min-height: 0px; height: auto !important; padding-bottom:1em; }
+
+table.form th {
+	text-align: left;
+	font-size: 10pt;
+	background-color: #ccc;
+}
+
+table.form tr:nth-child(2n) {
+	background-color: #f0f0f0;
+}
+
+#patient_members {
+	margin: 1%;
+	width: 98%;
+}
+
+span.no_data {
+	font-style: italic;
+}
+
+table.form { background: #f8f8f8; border-top: 1px solid #eee; border-left: 1px solid #eee; border-bottom: 1px solid #eee; border-right: 1px solid #eee; }
+
+#consult-history { width: 18em; border: 0px; }
+#consult-history td { border: 0px; white-space: normal; }
+#general-visits, #special-visits { border: 1px solid blue; width: 88%; }
+#general-visits a, #special-visits a { font-size: 11px;  }
+
+.age-description { font-size: 10px; }
+.illness-description { font-size: 10px; white-space: wrap; }
+#patient-chart, #vital-signs { margin: 1em; border: 1px solid #777; overflow: auto; min-height: 0px; height: auto !important; width: 90%; padding: 0px; }
+#patient-chart td.label, #vital-signs td.label { padding-right: 1em; }  
+
+.history .dataTables_length, .history .dataTables_filter { display: none; }
+.history .dataTables_wrapper { min-height: 0px; height: auto !important; }
+
+.history table td { white-space: nowrap; }
+.history table { width: 100%; }
+.history div.buttons { width: 100%; text-align: right; clear: both; }
+
+#visits-section { width:100%; margin: 0px; border: 2px solid #e8e8e8; }
+#visits-section td.left { border-right: 2px solid #e8e8e8; padding: 8px; }
+#visits-section td.right { padding: 8px; }
+
+textarea.notes { width: 90%; display: block; margin-left: 2em; border: 0px solid white; font-family: monospace; overflow: auto; }
+textarea.editable-notes { width: 95%; margin: 0px; text-align: left; height: 24em; border: 1px solid #e8e8e8; }
+div.indent { margin-left: 2em; margin-top: 0.5em; margin-bottom: 0.5em }
+div.boxed { border: 1px solid #e8e8e8; width: 90%; font-size: 10px; padding: 0.5em; margin-bottom: 0.5em;}
+
+label { cursor: pointer; }
+td.label input, td.label label { vertical-align: middle; }
+table.notes-section { width: 100%; border: 0px; }
+table.notes-section tr, table.notes-section td { border: 0px; }
+table.notes-section td.label { text-align: left; vertical-align: middle; }
+table.notes-section td.button { text-align: right; vertical-align: middle; }
+
+div#complaints { overflow: wrap; width: 80%; }
+div#complaints span { white-space: nowrap; vertical-align: middle; }
+div#complaints span a { vertical-align: middle; color: #900; }
+
+.alert { color: red; }
+.program-chart { border: 0px; overflow: auto; min-height: 0px; height: auto !important; }
+.program-chart span { white-space: nowrap; display: block; }
+table.female { background-color: pink; }
+table.male { background-color: #88c; }
+.full-width { width: 100%; }
+
+
+table.borderless, table.borderless td, table.borderless th { border: 0px; }

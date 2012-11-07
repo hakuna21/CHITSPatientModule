@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/impl
+END
+CHITSPatientSearchServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/impl/CHITSPatientSearchServiceImpl.java
+END
+StaticBarangayCodesHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/impl/StaticBarangayCodesHolder.java
+END
+CHITSServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/impl/CHITSServiceImpl.java
+END

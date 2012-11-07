@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db
+END
+FamilyFolderDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/FamilyFolderDAO.java
+END
+TemplatesDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/TemplatesDAO.java
+END
+AuditDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/AuditDAO.java
+END
+PatientQueueDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/PatientQueueDAO.java
+END
+HouseholdInformationDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/HouseholdInformationDAO.java
+END
+PatientSearchDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/PatientSearchDAO.java
+END
+CHITSConceptsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/db/CHITSConceptsDAO.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/eccdprogram
+END
+ChildCareUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/eccdprogram/ChildCareUtil.java
+END
+ServiceDueInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/eccdprogram/ServiceDueInfo.java
+END
+ServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/eccdprogram/ServiceUtil.java
+END
+ChildCareConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/eccdprogram/ChildCareConstants.java
+END

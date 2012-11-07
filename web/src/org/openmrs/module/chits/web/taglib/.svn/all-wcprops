@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib
+END
+VitalSignsTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/VitalSignsTag.java
+END
+NumericAnswerTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/NumericAnswerTag.java
+END
+DateAnswerTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/DateAnswerTag.java
+END
+WeightForAgeTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/WeightForAgeTag.java
+END
+CircumferenceTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/CircumferenceTag.java
+END
+BaseNumericObservationTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/BaseNumericObservationTag.java
+END
+TempTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/TempTag.java
+END
+CodedAnswerTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/CodedAnswerTag.java
+END
+WaistToHipRatioTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/WaistToHipRatioTag.java
+END
+WeightForLengthTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/WeightForLengthTag.java
+END
+WeightTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/WeightTag.java
+END
+ElapsedTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/ElapsedTag.java
+END
+HeightForAgeTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/HeightForAgeTag.java
+END
+BMITag.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/BMITag.java
+END
+AgeTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/AgeTag.java
+END
+BaseAgeSensitiveObservationTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/BaseAgeSensitiveObservationTag.java
+END
+HeightTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/taglib/HeightTag.java
+END

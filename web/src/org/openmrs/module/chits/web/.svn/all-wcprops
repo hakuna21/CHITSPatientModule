@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web
+END
+ICD10ConceptListItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/ICD10ConceptListItem.java
+END
+LocalMultipartZipFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/LocalMultipartZipFile.java
+END
+DrugConceptListItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/DrugConceptListItem.java
+END
+DWRBarangayService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/DWRBarangayService.java
+END
+DWRPatientSearchService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/DWRPatientSearchService.java
+END
+DummyHttpSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/DummyHttpSession.java
+END
+GlobalPropertyMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/GlobalPropertyMap.java
+END
+DWRFamilyFolderService.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/DWRFamilyFolderService.java
+END
+DWRMalePatientSearchService.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/DWRMalePatientSearchService.java
+END
+DWRFemalePatientSearchService.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/DWRFemalePatientSearchService.java
+END
+FamilyFolderListItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/FamilyFolderListItem.java
+END
+DWRCHITSConceptService.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/DWRCHITSConceptService.java
+END

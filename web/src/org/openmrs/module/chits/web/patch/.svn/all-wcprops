@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/patch
+END
+MaternalCareConceptsPatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/patch/MaternalCareConceptsPatch.java
+END
+ConceptDictionary20120509Patch.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/patch/ConceptDictionary20120509Patch.java
+END
+VaccineDefinitionsPatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/patch/VaccineDefinitionsPatch.java
+END
+PhysicianUUIDPatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/patch/PhysicianUUIDPatch.java
+END
+ConceptDictionary20120702Patch.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/patch/ConceptDictionary20120702Patch.java
+END
+AuditConceptsPatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/web/src/org/openmrs/module/chits/web/patch/AuditConceptsPatch.java
+END

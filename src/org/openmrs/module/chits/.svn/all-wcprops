@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits
+END
+Province.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/Province.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/Constants.java
+END
+Defaulter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/Defaulter.java
+END
+height_for_age_boys_0_to_5.csv
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/height_for_age_boys_0_to_5.csv
+END
+HouseholdInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/HouseholdInformation.java
+END
+FamilyPlanningConsultEntryForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/FamilyPlanningConsultEntryForm.java
+END
+PatientConsultForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/PatientConsultForm.java
+END
+W2H_ratio_for_male_adults.csv
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/W2H_ratio_for_male_adults.csv
+END
+BMI_for_adults.csv
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/BMI_for_adults.csv
+END
+CSVUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/CSVUtil.java
+END
+MaternalCareConsultEntryForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/MaternalCareConsultEntryForm.java
+END
+CHITSPatientModuleActivator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/CHITSPatientModuleActivator.java
+END
+ObsUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/ObsUtil.java
+END
+UploadFileForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/UploadFileForm.java
+END
+ConceptUtilFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/ConceptUtilFactory.java
+END
+weight_for_length_boys_0_to_2.csv
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/weight_for_length_boys_0_to_2.csv
+END
+weight_for_length_boys_2_to_5.csv
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/weight_for_length_boys_2_to_5.csv
+END
+weight_for_age_boys_0_to_5.csv
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/weight_for_age_boys_0_to_5.csv
+END
+RelationshipUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/RelationshipUtil.java
+END
+weight_for_length_girls_0_to_2.csv
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/weight_for_length_girls_0_to_2.csv
+END
+BMI_for_age_boys_5_to_19.csv
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/BMI_for_age_boys_5_to_19.csv
+END
+ChildCareConsultEntryForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/ChildCareConsultEntryForm.java
+END
+weight_for_length_girls_2_to_5.csv
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/weight_for_length_girls_2_to_5.csv
+END
+AgeBasedClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/AgeBasedClassifier.java
+END
+StateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/StateUtil.java
+END
+TransferMembersForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/TransferMembersForm.java
+END
+CHITSService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/CHITSService.java
+END
+FormTemplateSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/FormTemplateSerializer.java
+END
+DateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/DateUtil.java
+END
+PatientConsultEntryForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/68/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/PatientConsultEntryForm.java
+END
+PatientQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/PatientQueue.java
+END
+CHITSPatientSearchService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/CHITSPatientSearchService.java
+END
+UserBarangay.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/UserBarangay.java
+END
+ConceptUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/ConceptUtil.java
+END
+PatientForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/PatientForm.java
+END
+W2H_ratio_for_female_adults.csv
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/W2H_ratio_for_female_adults.csv
+END
+height_for_age_girls_0_to_5.csv
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/height_for_age_girls_0_to_5.csv
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/Util.java
+END
+PatientHistoricalConsultForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/PatientHistoricalConsultForm.java
+END
+Barangay.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/Barangay.java
+END
+OpenSessionIfNeeded.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/OpenSessionIfNeeded.java
+END
+Municipality.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/Municipality.java
+END
+PhilhealthUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/PhilhealthUtil.java
+END
+BMI_for_age_girls_5_to_19.csv
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/BMI_for_age_girls_5_to_19.csv
+END
+Region.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/Region.java
+END
+weight_for_age_girls_0_to_5.csv
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/weight_for_age_girls_0_to_5.csv
+END
+FamilyFolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/FamilyFolder.java
+END
+UserAuthorizedBarangaysForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/32/trunk/CHITS/CHITSPatientModule/src/org/openmrs/module/chits/UserAuthorizedBarangaysForm.java
+END

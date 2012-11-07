@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Beans to add to the current Application context definition -->  
+<beans
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns="http://www.springframework.org/schema/beans">
+    <bean id="chitsService" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+        <property name="transactionManager"><ref bean="transactionManager"/></property>
+        <property name="target">
+            <bean class="@MODULE_PACKAGE@.impl.CHITSServiceImpl">
+                <property name="familyFolderDAO">
+                    <bean class="@MODULE_PACKAGE@.db.hibernate.HibernateFamilyFolderDAO">
+                        <property name="sessionFactory"><ref bean="sessionFactory"/></property>
+                    </bean>
+                </property>
+                <property name="householdInformationDAO">
+                    <bean class="@MODULE_PACKAGE@.db.hibernate.HibernateHouseholdInformationDAO">
+                        <property name="sessionFactory"><ref bean="sessionFactory"/></property>
+                    </bean>
+                </property>
+                <property name="patientQueueDAO">
+                    <bean class="@MODULE_PACKAGE@.db.hibernate.HibernatePatientQueueDAO">
+                        <property name="sessionFactory"><ref bean="sessionFactory"/></property>
+                    </bean>
+                </property>
+                <property name="templatesDAO">
+                    <bean class="@MODULE_PACKAGE@.db.hibernate.HibernateTemplatesDAO">
+                        <property name="sessionFactory"><ref bean="sessionFactory"/></property>
+                    </bean>
+                </property>
+                <property name="conceptDAO">
+                    <bean class="org.openmrs.api.db.hibernate.HibernateConceptDAO">
+                        <property name="sessionFactory"><ref bean="sessionFactory"/></property>
+                    </bean>
+                </property>
+                <property name="chitsConceptsDAO">
+                    <bean class="@MODULE_PACKAGE@.db.hibernate.HibernateCHITSConceptsDAO">
+                        <property name="sessionFactory"><ref bean="sessionFactory"/></property>
+                    </bean>
+                </property>
+                <property name="auditDAO">
+                    <bean class="@MODULE_PACKAGE@.db.hibernate.HibernateAuditDAO">
+                        <property name="sessionFactory"><ref bean="sessionFactory"/></property>
+                    </bean>
+                </property>
+            </bean>
+        </property>
+        <property name="preInterceptors">
+            <ref bean="serviceInterceptors" />
+        </property>
+        <property name="transactionAttributeSource">
+            <bean class="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource"/>
+        </property>
+    </bean>
+
+    <bean id="chitsPatientSearchService" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+        <property name="transactionManager"><ref bean="transactionManager"/></property>
+        <property name="target">
+            <bean class="@MODULE_PACKAGE@.impl.CHITSPatientSearchServiceImpl">
+                <property name="patientSearchDAO">
+                    <bean class="@MODULE_PACKAGE@.db.hibernate.HibernatePatientSearchDAO">
+                        <property name="sessionFactory"><ref bean="sessionFactory"/></property>
+                    </bean>
+                </property>
+                <property name="femalePatientSearchDAO">
+                    <bean class="@MODULE_PACKAGE@.db.hibernate.HibernatePatientSearchDAO">
+                        <property name="sessionFactory"><ref bean="sessionFactory"/></property>
+                        <property name="gender"><value>F</value></property>
+                    </bean>
+                </property>
+                <property name="malePatientSearchDAO">
+                    <bean class="@MODULE_PACKAGE@.db.hibernate.HibernatePatientSearchDAO">
+                        <property name="sessionFactory"><ref bean="sessionFactory"/></property>
+                        <property name="gender"><value>M</value></property>
+                    </bean>
+                </property>
+            </bean>
+        </property>
+        <property name="preInterceptors">
+            <ref bean="serviceInterceptors" />
+        </property>
+        <property name="transactionAttributeSource">
+            <bean class="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource"/>
+        </property>
+    </bean>
+
+	<bean parent="serviceContext">
+	    <property name="moduleService">
+	        <list>
+	            <value>@MODULE_PACKAGE@.CHITSService</value>
+	            <ref bean="chitsService" />
+	        </list>
+	    </property>
+	</bean>
+
+	<bean parent="serviceContext">
+	    <property name="moduleService">
+	        <list>
+	            <value>@MODULE_PACKAGE@.CHITSPatientSearchService</value>
+	            <ref bean="chitsPatientSearchService" />
+	        </list>
+	    </property>
+	</bean>
+ </beans>
